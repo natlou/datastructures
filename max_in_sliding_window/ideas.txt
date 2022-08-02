@@ -1,2 +1,8 @@
 We use a dequeue (descending queue) for the window 
 loop through the array once 
+the items in the window are the index of the values
+O(n)
+
+naive approach is to use two for loops for the window + array
+the items in the window are the values
+O(n^2)
