@@ -1,0 +1,2 @@
+We use a dequeue (descending queue) for the window 
+loop through the array once 
