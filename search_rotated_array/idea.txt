@@ -1,0 +1,15 @@
+Solution 1: Iterative#
+The solution is essentially a binary search but with some modifications. 
+When we look at the array in the example, you may notice that at least one-half 
+of the array is always sorted. We can use this property to our advantage. 
+If the target lies within the sorted half of the array, our problem is a basic 
+binary search. Otherwise, discard the sorted half and keep examining the 
+unsorted half. Since we partition the array in half at each step, this gives 
+us O(log \space n)
+O(log n)
+ runtime complexity.
+
+Let’s assume we have the same array we saw above (rotated 6 times) and 
+our target is 200
+200
+.
