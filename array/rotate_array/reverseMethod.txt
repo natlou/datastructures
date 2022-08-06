@@ -1,0 +1,21 @@
+Normalize the rotations, so they do not exceed the length of the array. For example, for an array of length 10
+10
+, rotating by 14
+14
+ elements is the same as rotating by (14%10) 4 elements.
+
+Convert negative rotations to positive rotations.
+
+Reverse the elements of the original array.
+
+Reverse the elements from 0
+0
+ to n-1
+n−1
+.
+
+Reverse the elements from n
+n
+ to length-1
+length−1
+.
