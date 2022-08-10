@@ -1,0 +1,1 @@
+I used a stack to reverse this linked list, anything that needs to reverse something specifically data, a stack may be a good option since it's LIFO
