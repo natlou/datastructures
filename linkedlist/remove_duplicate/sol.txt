@@ -1,0 +1,10 @@
+Here is the pseudo-code of the algorithm that we are going to use. We iterate through the entire linked list and compare each node data with the hashset. Duplicate nodes are deleted as we iterate through the list.
+
+n = length of linked list
+add data of the first node to a hashset
+
+for 2nd to the nth node in the linked list
+  if data of 'node' is found in the hashset
+    delete current node
+  else
+    add data of current node to the hashset
