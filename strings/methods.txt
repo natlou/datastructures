@@ -1,0 +1,37 @@
+Useful methods#
+Let's study the built-in methods that perform common operations on a string.
+
+Things you should know!
+str.length: This method returns the length of the string, str.
+
+str.charAt(index): This method returns the character at the given index.
+
+str.indexOf(substring): This method returns the first index of a substring given as a parameter.
+
+str.replace(regex, str1): This method replaces matched regex that is in str with string str1.
+
+str.slice(start, end): This method extracts a section of str from start to end.
+
+str.toLowerCase(): This method converts str to lowercase.
+
+str.toUpperCase(): This method converts str to uppercase.
+
+str.substr(start, length): This method returns part of str from the start to the specified length.
+
+str.substring(index1, index2): This method returns part of str between index1 and index2.
+
+str.valueOf(): This method returns the primitive value of str.
+
+str.trim(): This method trims whitespace from both sides of str.
+
+str.split(sep): This method splits str into an array of substrings separated by the separator, sep.
+
+str1 < str2: This method returns true if str1 occurs after str2 in lexicographic order.
+
+str1 > str2: This method returns true if str1 occurs before str2 in lexicographic order.
+
+str1.includes(str2): This method searches for str2 in string str1 and returns a boolean value.
+
+str1.concat(str2): This method joins strings str1 and str2.
+
+str.search(regex): This method returns a position where regex is matched in str1.
