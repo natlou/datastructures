@@ -1,0 +1,12 @@
+It only takes a few steps to implement insertion sort. To do so, we’ll maintain two linked lists:
+
+Original list (given to us as input)
+Sorted list (initially empty)
+Here is how the algorithm works:
+
+While the original list is not empty:
+   Remove an element (say 'X') from the original list.
+   Insert 'X' at the correct sorted position in the sorted list.
+To insert a node in the sorted linked list, we may need to scan the whole sorted list depending upon the inserted node.
+
+Let’s take an example where the input linked list is 29 -> 23 -> 82 -> 11.
