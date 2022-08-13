@@ -1,0 +1,69 @@
+Introduction#
+Similar to the Stack, a Queue is another linear data structure that stores the elements in a sequential manner.
+
+The only significant difference between Stack and Queue is that instead of using the LIFO principle, Queue implements the FIFO method, which is short for First in First Out.
+
+According to FIFO, the first element inserted is the one that comes out first. You can think of a queue as a pipe with both ends open. Elements enter from one end (back) and leave from the other (front).
+
+The following animation illustrates the structure of a queue.
+
+    1   
+1 of 18
+
+
+
+
+
+
+Queues are slightly trickier to implement than stacks because we have to keep track of both ends of the array. The elements are inserted from the back and removed from the front.
+
+A perfect real-life example of a queue is a line of people waiting to get a ticket from the booth. If a new person comes, he will join the line from the end, and the person standing at the front will be the first to get the ticket and leave the line.
+
+What are Queues used for?#
+Just like Stacks, Queues are used widely in searching and sorting algorithms such as the Breadth-First Search algorithm.
+
+Most operating systems also perform operations based on a Priority Queue that allows operating systems to switch between appropriate processes. They are also used to store packets on routers in a certain order when a network is congested. Implementing a cache also heavily relies on queues.
+
+We generally use Queues when:
+
+We want to prioritize something over another
+A resource is shared between multiple devices
+How do Queues work?#
+A typical Queue needs the following set of functions to work perfectly. These operations are listed below in the table:
+
+Function
+What does it do?
+enqueue(element)	inserts an element to the end of queue
+dequeue()	removes an element from the start of queue
+getFront()	returns the first element of the queue
+isEmpty()	checks if the queue is empty
+size()	returns the size of the queue
+The entire functionality of Queues depends on the first two functions. The rest are just helper functions to produce simple, understandable code.
+
+Example#
+See the animation below for a visual of how queues work.
+
+1 of 10
+
+
+
+
+
+
+Types of Queues#
+Listed below are the three most common types of queues.
+
+Linear Queue
+Circular Queue
+Priority Queue
+The queue that we have discussed so far was a Linear Queue. Let’s look at the last two types and see how they are different from Linear Queues.
+
+Circular Queue#
+Circular Queues are similar to Linear Queues with only one exception. As the name itself suggests, circular queues are circular in the structure, which means that both ends are connected to form a circle. Initially, the front and rear parts of the queue point to the same location. They eventually move apart as more elements are inserted into the queue. Circular queues are generally used in:
+
+Simulation of objects
+Event handling (do something when a particular event occurs)
+Priority Queue#
+In Priority Queues, all elements have a priority associated with them and are sorted such that the most prioritized object appears at the front, and the least prioritized object appears at the end of the queue. These queues are widely used in most operating systems to determine which programs should be given more priority.
+
+Now that we have covered all the basics of Queues let’s try to implement them in JavaScript. See you in the ​next lesson!
