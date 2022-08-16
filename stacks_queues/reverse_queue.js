@@ -1,7 +1,7 @@
 "use strict";
 const Stack = require('./Stack.js');
 function reverseK(queue, k) {
-    if (queue.isEmpty() == false) {
+    if (queue.isEmpty() === false) {
         let myStack = new Stack();
         var count = 0;
         while (count < k) {
