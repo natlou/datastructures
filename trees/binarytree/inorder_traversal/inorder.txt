@@ -1,0 +1,20 @@
+Statement#
+Given a binary tree, write an iterator that takes in the root of a binary tree and iterates through its nodes in an in-order fashion.
+
+Our implementation should include two critical methods of any iterator type:
+
+    hasNext(): This function returns whether an in-order node exists next in line.
+    getNext(): This function returns the next in-order node of the binary tree.
+    The method inorderUsingIterator in the “Try it yourself” section demonstrates how these two methods may be used to test our implementation.
+
+Repeatedly calling hasNext() and getNext() functions on the above binary tree should return nodes in the following sequence: 12, 25, 35, 50, 60, 75, 100, 125, 200, 300.
+
+Sample input#
+The input list below represents the level-order traversal of the binary tree:
+
+[100, 50, 200, 25, 75, 125, 300, 12, 35, 60]  
+Expected output#
+The sequence below represents the in-order traversal of the binary tree:
+
+12, 25, 35, 50, 60, 75, 100, 125, 200, 300
+
