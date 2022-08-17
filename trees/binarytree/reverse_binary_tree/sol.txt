@@ -1,0 +1,9 @@
+Solution#
+For this solution, we do a post-order (left, right, parent) traversal of the binary tree. The algorithm is as follows:
+
+    Start at the root node.
+    Perform a post-order traversal of the binary tree.
+    On every node during the traversal, we swap its left child with its right child.
+    Since we perform a depth-first search traversal, the children of any node are already mirrored even before we return the node itself.
+
+    
