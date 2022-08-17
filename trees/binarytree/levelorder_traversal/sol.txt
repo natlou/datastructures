@@ -1,0 +1,23 @@
+Solution 1#
+We need two queues to solve this problem:
+
+The current queue
+The next queue
+We will conform to the following steps for this solution:
+
+First, we declare an array of two queues. This step will help us, later on, to swap values between our two queues.
+
+We then declare and point the current queue to the 0^{th}
+ 
+ index queue of the array and the next queue to the 1^{st}
+ 
+ index queue.
+
+We then push the root node into the current queue and set the level to zero.
+
+Now, we carry out the following operations until the current queue is empty:
+
+Dequeue the first element of the queue and print its data.
+Enqueue the node’s children we dequeued in the previous step into the next queue.
+If the current queue is empty, increase the level number and print a new line. Then assign the current queue to the next queue, and the next queue to the current queue.
+If the current queue is still empty, we terminate the loop.
