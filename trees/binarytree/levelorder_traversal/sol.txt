@@ -21,3 +21,25 @@ Dequeue the first element of the queue and print its data.
 Enqueue the node’s children we dequeued in the previous step into the next queue.
 If the current queue is empty, increase the level number and print a new line. Then assign the current queue to the next queue, and the next queue to the current queue.
 If the current queue is still empty, we terminate the loop.
+
+In the previous solution, we used two queues to keep track of the current level. However, we will only use one queue in this solution.
+
+An empty current queue indicates that we processed all nodes at the current level. However, all we need is an end-of-level marker.
+
+This end-of-level marker can be an empty queue or a dummy node. A dummy node acts as the end-of-level marker in the current queue.
+
+Here is what the current queue initially looks like with the dummy marker at level zero:
+
+current_queue
+100
+Dummy
+The modified steps for this solution are as follows:
+
+First, we declare the current queue and the dummy node.
+We then push the root and dummy nodes into the current queue.
+Now, we carry out the following operations until the current queue is empty:
+Dequeue the first element of the queue and print its data.
+Enqueue the node’s children we dequeued in the previous step into the current queue.
+If the current queue’s first element is the dummy node, then we print a new line and remove the dummy node.
+If the current queue is not empty, add the dummy node back to the queue. Otherwise, we terminate the algorithm.
+Here is an example to demonstrate the algorithm mentioned above:
