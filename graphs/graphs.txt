@@ -1,0 +1,43 @@
+Introduction#
+When we talk about graphs, the first thing that comes to mind is the conventional graphs used to model data. In computer science, the term “graph” has a completely different meaning.
+
+The graph data structure plays a fundamental role in several applications such as GPS, neural networks, peer to peer networks, search engine crawlers, garbage collection, and even social networking websites.
+
+This section will explore its functionality and power. We will also look at how they are used to solve a diverse range of problems.
+
+Now, let’s talk about what a graph really is.
+
+Graph Structure#
+A graph is a set of nodes that are connected to each other in the form of a network. First of all, we’ll define the two basic components of a graph.
+
+Vertex#
+A vertex is an essential part of a graph. A collection of vertices forms a graph. In that sense, vertices are similar to linked list nodes.
+
+Edge#
+An edge is a link between two vertices. It can be uni-directional or bi-directional, depending on your graph. An edge can also have a cost associated with it, which we will discuss in detail later.
+
+Here is a visual representation of a graph:
+
+ Vertex  
+ Edge  
+    a   
+    b   
+    c   
+There are several terms used to describe the properties of graphs.
+
+Graph Terminologies#
+Degree of a Vertex: The total number of edges connected to a vertex. There are two types of degrees:
+
+In-Degree: The total number of incoming edges connected to a vertex.
+
+Out-Degree: The total number of outgoing edges connected to a vertex.
+
+Parallel Edges: Two undirected edges are parallel​ if they have the same end vertices. Two directed edges are parallel if they have the same origin and destination.
+
+Self Loop: This occurs when an edge starts and ends on the same vertex.
+
+Adjacency: Two vertices are said to be adjacent if there is an edge connecting them directly.
+
+In the visual representation of the graph shown above, the in-degree of both a and b is 1. The same​ goes for the out-degree of these vertices. The in-degree and out-degree for c are 2 as it contains a self-loop.
+
+In the next lesson, we’ll observe the two primary types of graphs.
