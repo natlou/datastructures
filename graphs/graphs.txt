@@ -41,3 +41,9 @@ Adjacency: Two vertices are said to be adjacent if there is an edge connecting t
 In the visual representation of the graph shown above, the in-degree of both a and b is 1. The same​ goes for the out-degree of these vertices. The in-degree and out-degree for c are 2 as it contains a self-loop.
 
 In the next lesson, we’ll observe the two primary types of graphs.
+
+
+
+
+
+graph can be implemented with a linkedlist (each path is kinda a linked list); 
