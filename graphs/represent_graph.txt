@@ -1,0 +1,26 @@
+Ways to Represent a Graph#
+The two most common ways to represent a graph are:
+
+Adjacency Matrix
+Adjacency List
+Adjacency Matrix#
+The adjacency matrix is a two-dimensional matrix where each cell can contain a 0 or a 1.​ The row and column headings represent the vertices.
+
+If a cell contains 1, there exists an edge between the corresponding vertices e.g., Matrix[0][1]=1
+Matrix[0][1]=1
+ shows that an edge exists between vertex 0 and 1.
+
+
+In the image above, there is a directed graph that has an edge going from vertex 0 to vertex 1, so there is a 1 at Matrix[0][1]
+Matrix[0][1]
+ in the adjacency matrix. In the case of the undirected graph, we would have Matrix[1][0] = 1
+Matrix[1][0]=1
+ as well since the edge is bidirectional.
+
+For a directed graph, the usual convention is to think of the rows as sources and the columns as destinations.
+
+
+Adjacency List#
+An array of linked list is used to store all the edges in the graph. The size of the array is equal to the number of vertices.
+
+Each index in this array represents a specific vertex in the graph. The entry at index i of the array contains a linked list containing the vertices that are adjacent to vertex i.
